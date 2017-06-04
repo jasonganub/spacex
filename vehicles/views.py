@@ -8,3 +8,4 @@ from .models import Vehicle
 def display_all_vehicles(request):
     if request.method == 'GET':
         vehicles = Vehicle.objects.all()
+        return render(request, 'vehicles.html')
