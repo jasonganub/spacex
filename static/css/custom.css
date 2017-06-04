@@ -8,16 +8,6 @@ footer {
   padding: 20px 0;
 }
 
-a {
-  color: #9D9D9D;
-  text-decoration: none;
-}
-
-a:hover {
-  color: #fff;
-  text-decoration: none;
-}
-
 #navbar {
   background-color: #000;
 }
@@ -39,6 +29,20 @@ a:hover {
   color: #9D9D9D;
 }
 
+.link a {
+  color: #9D9D9D;
+  text-decoration: none;
+}
+
+.link a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
 .sections {
   color: #fff;
+}
+
+.sections button {
+  color: #000;
 }
