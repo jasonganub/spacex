@@ -1,4 +1,12 @@
 /* Custom */
+body {
+  padding-top: 50px;
+}
+
+footer {
+  padding: 20px 0;
+}
+
 #navbar {
   background-color: #000;
 }
