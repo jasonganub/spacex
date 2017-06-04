@@ -1,4 +1,8 @@
 /* Custom */
+#navbar {
+  background-color: #000;
+}
+
 #intro-header {
   padding-top: 20%;
   padding-bottom: 20%;
