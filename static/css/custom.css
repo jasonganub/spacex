@@ -1,0 +1,9 @@
+/* Custom */
+#intro-header {
+  padding-top: 20%;
+  padding-bottom: 20%;
+  text-align: center;
+  background: url(/static/img/header.jpg) no-repeat center;
+  background-size: cover;
+  color: #fff;
+}
