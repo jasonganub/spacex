@@ -8,6 +8,16 @@ footer {
   padding: 20px 0;
 }
 
+a {
+  color: #9D9D9D;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
 #navbar {
   background-color: #000;
 }
