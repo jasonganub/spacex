@@ -6,14 +6,14 @@
     {% for vehicle in vehicles %}
     <div class="container">
       <div class="col-lg-12">
-        <h4>{{ vehicle.name }}</h4>
-        <p>{{ vehicle.height }}</p>
-        <p>{{ vehicle.diameter }}</p>
-        <p>{{ vehicle.mass }}</p>
-        <p>{{ vehicle.stages }}</p>
-        <p>{{ vehicle.payload_to_leo }}</p>
-        <p>{{ vehicle.payload_to_gto }}</p>
-        <p>{{ vehicle.payload_to_mars }}</p>
+        <h3>{{ vehicle.name }}</h3>
+        <p>Height: {{ vehicle.height }} m</p>
+        <p>Diameter: {{ vehicle.diameter }} m</p>
+        <p>Mass: {{ vehicle.mass }} kg</p>
+        <p>Stages: {{ vehicle.stages }}</p>
+        <p>Payload to LEO: {{ vehicle.payload_to_leo }} kg</p>
+        <p>Payload to GTO: {{ vehicle.payload_to_gto }} kg</p>
+        <p>Payload to Mars: {{ vehicle.payload_to_mars }} kg</p>
       </div>
     </div>
 
