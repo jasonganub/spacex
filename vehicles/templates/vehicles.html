@@ -3,6 +3,7 @@
 
 <div class="container sections">
   <h1>Vehicles</h1>
+  {% if vehicles %}
     {% for vehicle in vehicles %}
       <div class="col-lg-12">
         <h3>{{ vehicle.name }}</h3>
@@ -15,6 +16,9 @@
         <p>Payload to Mars: {{ vehicle.payload_to_mars }} kg</p>
       </div>
     {% endfor %}
+  {% else %}
+    <h3>No vehicles to display</h3>
+  {% endif %}
 </div>
 
 {% endblock %}
