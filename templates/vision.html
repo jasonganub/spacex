@@ -1,4 +1,5 @@
 {% extends 'base.html' %}
+{% load staticfiles %}
 {% block content %}
 
 <div class="container sections">
@@ -9,6 +10,7 @@
   Today SpaceX is actively developing the technologies to make this possible,
   with the ultimate goal of enabling human life on Mars.
   </p>
+  <img class="img-responsive" src="{% static 'img/vision.jpg' %}" alt="astronauts">
 </div>
 
 {% endblock %}
