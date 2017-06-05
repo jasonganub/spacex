@@ -1,5 +1,5 @@
 {% extends 'base.html' %}
-
+{% load staticfiles %}
 {% block content %}
 
 <div id="intro-header">
@@ -22,7 +22,7 @@
       <p>Falcon 9, Falcon Heavy, Mars Vehicle</p>
       <a href="/vehicles/" class="btn btn-default" role="button">Learn more</a>
       <div class="images">
-        <img class="img-responsive" src="/static/img/vehicles.png" alt="">
+        <img class="img-responsive" src="{% static '/img/vehicles.png' %}" alt="">
       </div>
     </div>
   </div>
