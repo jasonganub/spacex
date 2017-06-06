@@ -5,11 +5,26 @@
 <div class="container sections">
   <h1>Launches</h1>
   {% if launches %}
-    {% for launch in launches %}
-      <div class="col-lg-12">
-        
-      </div>
-    {% endfor %}
+    <table class="table">
+      <thead>
+        <tr>
+          <th>Launch Date</th>
+          <th>Customer</th>
+          <th>Launch Site</th>
+          <th>Vehicle</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for launch in launches %}
+          <tr>
+            <td>{{ launch.date }}</td>
+            <td>{{ launch.customer }}</td>
+            <td>{{ launch.launch_site }}</td>
+            <td>{{ launch.vehicle }}</td>
+          </tr>
+        {% endfor %}
+      </tbody>
+    </table>
   {% else %}
     <h3>No launches to display</h3>
   {% endif %}
