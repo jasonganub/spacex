@@ -12,6 +12,12 @@ footer {
   background-color: #000;
 }
 
+.avatar {
+  border-radius: 50%;
+  float: left;
+  padding-right: 20px;
+}
+
 #intro-header {
   padding-top: 50px;
   padding-bottom: 50px;

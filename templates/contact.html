@@ -1,6 +1,25 @@
 {% extends 'base.html' %}
+{% load staticfiles %}
 {% block content %}
 
+<div class="sections">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <img class="avatar" src="{% static 'img/avatar.png' %}" alt="avatar" />
+        <h1><a href="www.jasonganub.com">Jason Ganub</a></h1>
+        <p>I'm a software engineer at <a href="https://intel.com">Intel</a> and a full stack web developer outside of work.</p>
+        <p>I love to travel, read, study entrepreneurship, play tennis, workout, and create projects that I'm passionate about.</p>
+        <p>You can check out my portfolio on <a href="www.github.com/jasonganub">Github</a> and <a href="www.linkedin/in/jasonganub">LinkedIn</a></p>
+        <p>There's a lot more I can write but I'd rather get to know you more through contact by sending me an <a href="mailto:tashidelek@jasonganub.com">email</a></p>
 
+        <h3>The challenge</h3>
+        <p>This website was a challenge for me to create something useful with a nice user interface,
+          aesthetically pleasing, objects in the database that can be called and created via admin interface,
+          and to show my best practices in full stack web development in 2 days.</p>
+      </div>
+    </div>
+  </div>
+</div>
 
 {% endblock %}
