@@ -5,10 +5,10 @@ from django.db import models
 
 
 class Launch(models.Model):
-    name = models.CharField(max_length=100)
+    date = models.DateField("date launched")
+    customer = models.CharField(max_length=100)
+    launch_site = models.CharField(max_length=100)
     vehicle = models.CharField(max_length=100)
-    date = models.DateTimeField("date launched")
-    location = models.CharField(max_length=100)
 
     def __str__(self):
-        return self.name
+        return "{}: {}".format(str(self.date), self.vehicle)
